@@ -1,0 +1,141 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": false,
+    "givenName": {
+      "@value": "Cryptotexty"
+    },
+    "motivations": {
+      "@value": "I've been an active participant in Project Catalyst since Fund 1, and my motivation is to be one of the most active DReps.\n\nIn 2019, I founded the Knygarium crypto bar (which existed in Kyiv) - a place where artists, businessmen, and crypto-enthusiasts met. For the future, I have some plans for the creation of the Cardano Hub in Kyiv, an important city in the region.\n\nDuring these years, I worked as an advisor and consultant with several businesses and entrepreneurs who were interested in Cardano. I see myself in this space for years if not decades.\n\nAs a political scientist (I have a degree in this), I read many books on political philosophy, and that's why I'm happy both to observe and participate in shaping the Governance of the next financial system of the world."
+    },
+    "objectives": {
+      "@value": "I plan to represent the voice of those who have less time/interest/knowledge to make decisions and vote on the Future of Cardano\n\nI plan to represent Ukraine and Eastern Europe, the region which, in my opinion, is not so popular in the Cardano ecosystem but has many developers and big economic potential.\n\nI plan to promote Cardano in the area of real-world politics (i.e. adoption of the governance solutions on the local and national level), real-world assets (tokenization, introducing Cardano to businesses from different areas)"
+    },
+    "paymentAddress": {
+      "@value": "addr1q8ltprg2dpuftk3xa773c4eqz62d63syevwqmeeqk75h0swy974pwpegzh7kay6pdypdedrfrunyge4fam22062a4ghq3v8jqe"
+    },
+    "qualifications": {
+      "@value": "Since Fund1 Project Catalyst I was Proposer, Community Reviewer, Voter.\n\nI analyzed and reviewed hundreds of proposals, and I read and voted for thousands of proposals.\n\nIn addition to Cardano, I researched and took part in several other blockchain ecosystems. I hope my diverse knowledge of the cryptocurrency industry will help me to make the right decisions.\n\nAs founder of small media Cryptotexty, I traveled to more than 10 worldwide Blockchain events, and I plan to travel in the future (after the war, if I survive) and promote Cardano globally. "
+    },
+    "references": [
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Cryptotexty Web-site"
+        },
+        "uri": {
+          "@value": "https://cryptotexty.io/"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Cryptotexty Youtube"
+        },
+        "uri": {
+          "@value": "https://youtube.com/cryptotexty1"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Cardano Forum"
+        },
+        "uri": {
+          "@value": "https://forum.cardano.org/u/cryptotexty/activity"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Ideascale Profile - Project Catalyst"
+        },
+        "uri": {
+          "@value": "https://cardano.ideascale.com/c/member-profile/23025"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Linkedin"
+        },
+        "uri": {
+          "@value": "https://www.linkedin.com/in/avoloshyn/"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "X"
+        },
+        "uri": {
+          "@value": "https://x.com/flodner"
+        }
+      },
+      {
+        "@type": "Identity",
+        "label": {
+          "@value": "Cryptotexty DRep Page"
+        },
+        "uri": {
+          "@value": "https://cryptotexty.io/cardano-drep"
+        }
+      }
+    ]
+  }
+}
